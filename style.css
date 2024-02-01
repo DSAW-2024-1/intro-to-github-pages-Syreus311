@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young:wght@400;700&family=Outfit:wght@400;700&display=swap');
+
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    background-color: #F3E5D8;
+  }
+
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100; 
+
+  }
+  .contenedor img {
+    max-width: 50%; /* Asegúrate de que la imagen no se desborde del contenedor */
+    border-radius: 5%; /* Hace que los bordes de la imagen sean redondos */
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 60vh; /* Ajusta la altura del contenedor al 100% del viewport height para centrar verticalmente */
+  }
+
+.titulo {
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 10px;
+    font-family: 'young serif', sans-serif;
+    text-align: center;
+}
+
+
+.texto1 {
+    text-align: left;
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    font-family: 'Outfit';
+    font-weight: 100;
+}
+
+.menu1 {
+    text-align: left;
+    font-size: 15px;
+    color: #444444;
+    margin-bottom:10px;
+    padding-left: 60px;
+    font-family: 'Outfit';
+    position: relative;
+    top: -20px;
+    font-weight: 100;
+}
+
+
+.menu2 {
+    text-align: left;
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    font-family: 'Outfit';
+    font-weight: 100;
+}
+
+
+.menu3 {
+    text-align: left;
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    font-family: 'Outfit';
+    font-weight: 100;
+}
+.nutritions {
+    text-align: left;
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    font-family: 'Outfit';
+    font-weight: 100;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #6E4D44;
+    margin-bottom: 10px;
+    font-family: 'Outfit';
+    font-weight: 100;
+
+  }
+  
+  th {
+    background-color: #ffffff;
+  }
